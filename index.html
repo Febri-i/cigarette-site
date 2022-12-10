@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+		<link
+			rel="stylesheet"
+			href="font.css" />
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div id="pointer"></div>
+		<nav>
+			<span onclick="document.getElementById('feature').scrollIntoView({ behavior: 'smooth' });">
+				Why us
+			</span>
+			<span onclick="document.getElementById('testimony').scrollIntoView({ behavior: 'smooth' });">
+				Testimony
+			</span>
+			<span onclick="document.getElementById('products').scrollIntoView({ behavior: 'smooth' });">
+				Products
+			</span>
+			<span onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">
+				About
+			</span>
+			<span onclick="document.getElementById('location').scrollIntoView({ behavior: 'smooth' });">
+				Location
+			</span>
+			<span onclick="document.getElementById('lastPage').scrollIntoView({ behavior: 'smooth' });">
+				Contact
+			</span>
+		</nav>
+		<div id="nextPageButton">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="32"
+				height="32"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="black"
+				stroke-width="3"
+				stroke-linecap="round"
+				stroke-linejoin="round">
+				<line
+					x1="12"
+					y1="5"
+					x2="12"
+					y2="19"></line>
+				<polyline points="19 12 12 19 5 12"></polyline>
+			</svg>
+		</div>
+		<div
+			id="mainPage"
+			class="fullPage">
+			<div class="mainTypographyContainer">
+				<h1>Just a good ol' Tobacco.</h1>
+				<h2>A good Tobacoo will truly bring a good time.</h2>
+				<button
+					onclick="document.getElementById('location').scrollIntoView({ behavior: 'smooth' });"
+					class="rippleishButton">
+					Get some
+				</button>
+			</div>
+		</div>
+		<div id="feature">
+			<span class="featureText">
+				<img
+					src="./pictures/dayandnight.jpg"
+					alt="" />
+				We open from the begining of the day till the end of the night. I have nothing better to do.
+			</span>
+			<span class="featureText">
+				<img
+					src="./pictures/smoketogether.jpg"
+					alt="" />
+				We have alot of nice people coming over. Join us have a good time together.
+			</span>
+			<span class="featureText">
+				<img
+					src="./pictures/tobacco.jpg"
+					alt="" />
+				We have all kind of Tobacco, you will find the one you love in this shop.
+			</span>
+			<span class="featureText">
+				<img
+					src="./pictures/pretendthispicrelatedtothetext.jpg"
+					alt="" />
+				You will never find Tobacco cheaper than from us. Also i need money.
+			</span>
+		</div>
+		<div
+			class="fullPage"
+			id="testimony">
+			<h1>What people say about us</h1>
+			<div class="testimonyContainer">
+				<span
+					data-from="Alexander Burcin"
+					data-job="Train driver">
+					Son, youre being real creep right now. Don't take anyone picture without their permission.
+				</span>
+				<img
+					src="/pictures/abhishek-koli-F1N0HDeQoEA-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="Colten Windsor"
+					data-job="Garden designer">
+					Yeah he is right.
+				</span>
+				<img
+					src="/pictures/khamkeo-vilaysing-TLNAZmzSLS4-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="Emerson Tad"
+					data-job="Literary agent">
+					Get away from me you creep!
+				</span>
+				<img
+					src="/pictures/mark-hayward-uIgXa9DktmI-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="Cecilia Miley"
+					data-job="Legal secretary">
+					Im leaving.
+				</span>
+				<img
+					src="/pictures/naman-sood-FTxa68exFqM-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="Pascal Isaac"
+					data-job="Sportsperson">
+					The owner is very nice person. Also, great collection they got.
+				</span>
+				<img
+					src="/pictures/norbert-buduczki-kD_tmOniBRs-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="Nicolas Philibert"
+					data-job="Bailiff">
+					Best Tobacco shop so far.
+				</span>
+				<img
+					src="/pictures/nehel-sheikh-ZQ6QAbAOKJU-unsplash.jpg"
+					alt="" />
+			</div>
+			<div class="testimonyContainer">
+				<span
+					data-from="John Doe"
+					data-job="NEET">
+					The owner is very friendly. Really recommend coming over to this shop.
+				</span>
+				<img
+					src="/pictures/dev-asangbam-y99tI_QD0h4-unsplash.jpg"
+					alt="" />
+			</div>
+		</div>
+		<div
+			class="fullPage"
+			id="products">
+			<div class="titleContainer">
+				<h1>Products</h1>
+				<div class="productNavigatorContainer">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="productNavigator"
+						width="32"
+						height="32"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="white"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						id="productNavigatorLeft">
+						<polyline points="15 18 9 12 15 6"></polyline>
+					</svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="productNavigator"
+						width="32"
+						height="32"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="white"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						id="productNavigatorRight">
+						<polyline points="9 18 15 12 9 6"></polyline>
+					</svg>
+				</div>
+			</div>
+
+			<div class="productsContainer hideScroll">
+				<div class="productsWrapper">
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur.
+						</p>
+					</div>
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur. Lorem ipsum
+							dolor sit amet, consectetur adipisicing elit. Ut perferendis odit provident officia,
+							velit a molestias adipisci voluptate eligendi nostrum accusantium consectetur dolorum
+							temporibus earum perspiciatis unde ducimus hic fugiat.
+						</p>
+					</div>
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur.
+						</p>
+					</div>
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur.
+						</p>
+					</div>
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur.
+						</p>
+					</div>
+					<div class="productContainer productContainerCanHover">
+						<img
+							src="./pictures/virginia.jpg"
+							alt="Virgin Royale" />
+						<h3>Virgin Royale Coffe</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam distinctio vero
+							quam dolorem in, exercitationem repudiandae animi eligendi, quod numquam nobis,
+							expedita officia ipsam libero vitae consequuntur molestias consectetur.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fullPage"></div>
+		<div
+			class="fullPage"
+			id="about">
+			<h1>About</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum vero in omnis possimus
+				porro veniam nemo mollitia, distinctio quidem delectus eligendi ullam eum. Consectetur,
+				iusto. Voluptates cumque hic tempore! Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit. Aspernatur, iure ab illum reiciendis voluptatibus, cupiditate ad ullam dolore
+				provident dignissimos error libero architecto. Reiciendis distinctio amet voluptates,
+				tempore eius corrupti.
+			</p>
+		</div>
+		<div
+			class="fullPage"
+			id="location">
+			<h1>Location</h1>
+			<div class="gmap_canvas">
+				<iframe
+					class="gmap_iframe"
+					width="100%"
+					frameborder="0"
+					scrolling="no"
+					marginheight="0"
+					marginwidth="0"
+					src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Tomboy mine&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+			</div>
+		</div>
+		<div
+			class="fullPage"
+			id="lastPage">
+			<h1>Contact us</h1>
+			<span>febribayun@gmail.com</span>
+		</div>
+	</body>
+	<script src="./script.js"></script>
+</html>
